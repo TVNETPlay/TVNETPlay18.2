@@ -1,0 +1,2 @@
+# TVNETPlay18.2
+TVNETPlay 1.0.0 Kodi 18.2
