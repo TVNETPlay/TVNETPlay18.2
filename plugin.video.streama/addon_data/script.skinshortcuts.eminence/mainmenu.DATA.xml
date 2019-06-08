@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Destacadas</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/favourites.png</thumb>
+		<action>noop</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Acción</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/favourites.png</thumb>
+		<action>noop</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Comedia</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/favourites.png</thumb>
+		<action>noop</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Terror</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/favourites.png</thumb>
+		<action>noop</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Series</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/favourites.png</thumb>
+		<action>noop</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Menú</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/settings.png</thumb>
+		<action>noop</action>
+	</shortcut>
+</shortcuts>
