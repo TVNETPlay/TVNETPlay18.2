@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.streama" version="0.0.1" name="TVNETPlay" provider-name="Team MP">
+    <requires>
+      <import addon="xbmc.python" version="2.24.0"/>
+      <import addon="script.module.simplejson" version="3.3.0"/>
+      <import addon="script.module.requests" version="2.3.0"/>
+      <import addon="script.module.routing" version="0.2.0"/>
+	  <import addon="resource.uisounds.fromashes" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Servidor Multimedia.</summary>
+        <description lang="en_GB">TVNETPlay es un Centro de Entretenimiento donde puedes disfrutar desde la comodidad de tu hogar de las mejores Películas y Series de TV!
+        </description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://github.com/HackerspaceBielefeld/plugin.video.streama</source>
+        <website>http://github.com/HackerspaceBielefeld/plugin.video.streama</website>
+        <forum>https://forum.kodi.tv/showthread.php?tid=320484</forum>
+        <news></news>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshot01.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="resource.uisounds.fromashes" version="3.0.01" name="Arctic Zephyr: From Ashes UI Audio Suite" provider-name="NortheBridge">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Arctic Zephyr: From Ashes UI Audio Suite</summary>
+    <description lang="en">Arctic Zephyr: From Ashes UI Audio Suite</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+    id="skin.eminence.2"
+    version="2.5.46"
+    name="Eminence 2.0"
+    provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.skinshortcuts" version="1.0.0"/>
+        <import addon="script.skin.helper.service" version="1.0.0"/>
+        <import addon="script.extendedinfo" version="5.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+        <import addon="resource.images.weathericons.white" version="0.0.6"/>
+    </requires>
+    <extension point="xbmc.gui.skin" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Clean, clear, simple, modern.</summary>
+        <disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
+        <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <license>CC-NC-SA 3.0</license>
+        <website></website>
+        <email></email>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>extras/viewthumbs/50.jpg</screenshot>
+            <screenshot>extras/viewthumbs/51.jpg</screenshot>
+            <screenshot>extras/viewthumbs/52.jpg</screenshot>
+            <screenshot>extras/viewthumbs/53.jpg</screenshot>
+            <screenshot>extras/viewthumbs/54.jpg</screenshot>
+            <screenshot>extras/viewthumbs/55.jpg</screenshot>
+            <screenshot>extras/viewthumbs/56.jpg</screenshot>
+            <screenshot>extras/viewthumbs/57.jpg</screenshot>
+            <screenshot>extras/viewthumbs/58.jpg</screenshot>
+            <screenshot>extras/viewthumbs/59.jpg</screenshot>
+        </assets>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+    	<summary lang="en_GB">Your add-on's summary</summary>
+    	<description lang="en_GB">Your add-on's description</description>
+    	<disclaimer lang="en_GB"></disclaimer>
+    	<language>en</language>
+    	<platform>all</platform>
+    	<forum>https://forum.kodi.tv/showthread.php?tid=xxxx</forum>
+    	<email>you@youremail.com</email>
+    	<source>https://github.com/Mario198810/TVNETPlay/tree/master/plugin.video.streama</source>
+    	<assets>
+        	<icon>resources/icon.png</icon>
+        	<fanart>resources/fanart.jpg</fanart>
+        	<banner></banner>
+        	<screenshot></screenshot>
+    	</assets>
+  	</extension>
+</addon>
+</addons>
