@@ -16,7 +16,7 @@
 	<!-- <extension point="xbmc.service" library="start.py" /> -->
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Servidor Multimedia.</summary>
-        <description lang="en_GB">TVNETPlay es un Centro de Entretenimiento donde puedes disfrutar desde la comodidad de tu hogar de las mejores Películas y Series de TV!
+        <description lang="en_GB">TVNETPlay es un centro de entretenimiento multimedia donde puedes disfrutar de las mejores Películas y Series de TV!
         </description>
         <platform>all</platform>
         <license>MIT</license>
